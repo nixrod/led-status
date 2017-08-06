@@ -22,7 +22,7 @@ A showcase for an interaction between an esp8266, and a backend which runs a web
 * Navigate to the server folder
 * run `npm install` to install all dependencies
 * run `node server.js` to start the backend
-* Open your browser and go to (http://localhost:3000)
+* Open your browser and go to http://localhost:3000
 
 ## Todo
 * Secure the API endpoints with basic auth
