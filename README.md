@@ -2,7 +2,7 @@
 A showcase for an interaction between an esp8266, and a backend which runs a webapp
 
 ## Hardware setup
-* ![Schematic how to wire up the hardware](https://raw.githubusercontent.com/nixrod/led-status/master/schematic.png "Schematic")
+![Schematic how to wire up the hardware](https://raw.githubusercontent.com/nixrod/led-status/master/schematic.png "Schematic")
 * Wire up the hardware as seen in the picture above
 * The brown cable goes to d0
 * The white cable goes to d1
