@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.use(bodyParser.json());
+// launch the webapp
 app.use(express.static('public'));
 
 let ledStatus = {
@@ -29,5 +30,5 @@ app.post('/status', function (req, res) {
 });
 
 app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
+    console.log('App listening on port 3000!');
 });
