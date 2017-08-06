@@ -7,6 +7,7 @@ A showcase for an interaction between an esp8266, and a backend which runs a web
 * The brown cable goes to d0
 * The white cable goes to d1
 * The resistor has a value of 1kΩ
+* The pink cable represents a switch
 
 ## Flash the NodeMcu
 * Setup your Arduino IDE as described in this [instructable](http://www.instructables.com/id/Programming-ESP8266-ESP-12E-NodeMCU-Using-Arduino-/)
