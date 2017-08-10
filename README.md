@@ -1,5 +1,5 @@
 # led-status
-A showcase for an interaction between an esp8266, and a backend which runs a webapp
+A showcase for an interaction between an esp8266, and a backend(nodejs or PHP) which runs a webapp
 
 ## Hardware setup
 ![Schematic how to wire up the hardware](https://raw.githubusercontent.com/nixrod/led-status/master/schematic.png "Schematic")
@@ -17,12 +17,19 @@ A showcase for an interaction between an esp8266, and a backend which runs a web
 * Flash the sketch from the arduino folder to the nodemcu
 
 ## Launch the server
+### nodejs
 * [Download and install](https://nodejs.org/en/) node.js
 * Open the command prompt
 * Navigate to the server folder
 * run `npm install` to install all dependencies
 * run `node server.js` to start the backend
 * Open your browser and go to http://localhost:3000
+
+### PHP
+* Run your PHP and MYSQL Servers
+* Adapt the MYSQL connection credentials in server/php/server.php
+* Adapt the ENDPOINT in /php/public/index.js to point to the server.php url
+* Open your browser and go to the location of the index.html
 
 ## Todo
 * Secure the API endpoints with basic auth
